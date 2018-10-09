@@ -12,6 +12,9 @@ const styles = theme => ({
   crowdAreaList: {
     width: '100%',
     height: '100%',
+    positioin: 'relative',
+    overflow: 'auto',
+    WebkitOverflowScrolling: "touch",
     background: theme.palette.primary.main,
   },
   header: {
@@ -57,12 +60,12 @@ class ListItem extends React.Component {
       <li className={classes.listItem}>
         <Paper elevation={4}>
           <Grid container>
-            <Grid item sm={8} lg={9} className={classes.branchName}>
+            <Grid item xs={8} lg={9} className={classes.branchName}>
               <Typography variant='title' color='inherit'>
                 { this.props.crowdArea.name }
               </Typography>
             </Grid>
-            <Grid item sm={4} lg={3} className={classes.population}>
+            <Grid item xs={4} lg={3} className={classes.population}>
               <Typography variant='title' color='inherit'>
                 { this.props.crowdArea.population || 0 }
               </Typography>

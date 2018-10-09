@@ -113,7 +113,7 @@ class CrowdAreaDef extends React.Component {
     return (
       <Screen>
         <Grid container justify='center' className={classes.main}>
-          <Grid item sm={11} md={6} lg={4} className={classes.fullHeight}>
+          <Grid item xs={11} md={6} lg={4} className={classes.fullHeight}>
             <Card elevation={4} className={classes.card}>
               <div className={classes.header}>
                 <Typography variant='display1' color='inherit' align='center'>

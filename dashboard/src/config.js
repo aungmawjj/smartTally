@@ -1,8 +1,8 @@
 const config = {};
-config.DEBUG = true;
-// config.baseURL = 'http://192.168.86.65:9099/api';
+config.DEBUG = false;
+config.baseURL = 'http://kaa.ninja:19099/api';
 // config.baseURL = 'https://sale.mgecsg.com/api';
-config.baseURL = 'http://localhost:9099/api';
+// config.baseURL = 'http://localhost:9099/api';
 
 config.SNACKBAR_MAX_CHAR = 30;
 config.SNACKBAR_AUTO_HIDE_DURATION = 3000;

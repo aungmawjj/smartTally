@@ -35,7 +35,7 @@ class CrowdAreaDef extends React.Component {
               <Map crowdAreaList={this.props.crowdAreaList}/>
             </Grid>
           )}
-          <Grid item sm={12} md={4} lg={3} className={classes.fullHeight}>
+          <Grid item xs={12} sm={12} md={4} lg={3} className={classes.fullHeight}>
             <List crowdAreaList={this.props.crowdAreaList}/>
           </Grid>
         </Grid>
