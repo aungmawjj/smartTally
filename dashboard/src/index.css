@@ -1,0 +1,9 @@
+@font-face {
+  font-family:'Myanmar3';
+  font-display: 'swap';
+  src:local('Myanmar3'), url('/myanmar3.woff') format('woff'), url('/myanmar3.ttf') format('ttf');
+}
+
+.myanmar3 {
+  font-family:"Masterpiece Uni Sans",Myanmar3 !important;
+}

@@ -1,0 +1,13 @@
+/client
+
+/node_modules
+
+*.log
+
+artifacts.json
+
+miniStorage/*.json
+
+account*
+
+storage.json
